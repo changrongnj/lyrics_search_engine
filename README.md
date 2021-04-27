@@ -9,7 +9,7 @@
     * Download the Elasticsearch service with the tar or zip archive at [elastic.co](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started-install.html).
     * Follow the guide of [start Elastic search locally on Linux, macOS, or Windows](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started-install.html), use ```cd``` to change to the Elasticsearch /bin directory. Use ```./elasticsearch``` to start the server.
     * __Install phonetic search plugin for ElasticSearch with ```sudo bin/elasticsearch-plugin install analysis-phonetic```.__
-4. Before get the search engine to run, database need to be download through the link: (expires on May 10th.)
+4. Before get the search engine to run, database need to be download through the [link](https://drive.google.com/file/d/1Dmh9ApPccJK3OrXUAR4P5QchdXqlousU/view?usp=sharing). (expires on May 10th.)
 5. Once run the Elasticsearch locally, start the web server with command ```python3 -m flask run```. 
 6. Open the browser with the link http://127.0.0.1:5000/.
     * Before running your first query, it may load the lyrics database. This may be a little slow, but expect not noticeable.
